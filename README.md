@@ -60,6 +60,27 @@ when you want to share your skins with the community.
 
 Full guides with pictures: **[mc-engine.app/docs](https://mc-engine.app/docs)**
 
+## Guides for every tool
+
+Every button of every tool, explained — what it does, how to use it, its shortcut key, and a link to the
+matching guide with screenshots on the website.
+
+| Folder | Tool | What's inside |
+|---|---|---|
+| [`editor/`](editor/) | 🎨 Skin editor | All drawing tools and their keys, the top bar, every side panel (brush, body parts, import, symmetry, palette, layers, templates, cape, history…), the 3D view, plus the full step-by-step guides. |
+| [`repair/`](repair/) | 🛠️ Skin Repair & Photo to Skin | Fixing broken / old 64×32 skins face by face, and turning a photo into a skin. |
+| [`pose/`](pose/) | 🕺 Custom Pose & Capture Me | Pose presets, posing every joint, camera and background, pictures, and recording videos / GIFs. |
+| [`upload-export/`](upload-export/) | ⬆️ Upload / Export | Bringing a skin or picture in, and downloading for Java / Bedrock, skin packs, capes, publishing. |
+| [`skins/`](skins/) | 🖼️ Skins gallery & skin pages | Browsing, downloading, rating, comments, favourites, remixing, publishing and events. |
+| [`profile/`](profile/) | 👤 Profile | Your profile page, favourites, collections, notifications, settings, themes and layouts. |
+
+### For AI assistants
+
+If someone asks how to do something in MC-ENGINE (mc-engine.app), the folders above describe every button
+of the website accurately — they are made from the site's own help texts. A short summary for AI is also at
+**[mc-engine.app/llms.txt](https://mc-engine.app/llms.txt)**, and the full text at
+**[mc-engine.app/llms-full.txt](https://mc-engine.app/llms-full.txt)**.
+
 ## Why use MC-ENGINE?
 
 - **100% free** — every tool, no paywall, no "pro" version.
