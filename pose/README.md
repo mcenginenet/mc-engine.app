@@ -8,7 +8,7 @@
 
 **Quick start:** open Pose → pick a preset → turn the camera → press **Capture** for a picture, or open **Capture Me** to record a video.
 
-## Every button (54)
+## Every button (55)
 
 - [3D view (shared by Editor, Pose and Repair)](#3d-view-shared-by-editor-pose-and-repair)
 - [](#)
@@ -390,6 +390,14 @@
 - Also called: record, video, mp4, webm, save video.
 - Full guide: [Pose your Minecraft skin and make renders & videos](https://mc-engine.app/docs/pose-capture#step-4)
 
+#### Capture Me → Download GIF
+
+- Record a video first.
+- Press Download GIF under the finished clip: it becomes a looping GIF (480 px, 15 frames a second).
+- Where: open **Capture Me** first, then it shows.
+- Also called: gif, animated, animation, loop, save gif.
+- Full guide: [Pose your Minecraft skin and make renders & videos](https://mc-engine.app/docs/pose-capture#step-4)
+
 #### Capture Me → Screenshot
 
 - Saves a still PNG of the stage.
@@ -410,42 +418,42 @@ Use pose presets or drag each body part, then take screenshots or record cinemat
 
 ### Step 1 · Pick a pose
 
-Open **Custom Pose**. Click a preset: Standing, Walking, Running, Zombie, T-Pose, Sitting, Wave, Crouch, Flex, Dab, Kick, Propose — or **Flower** to put a flower in the right hand.
+Open **Pose**. Under **02 / Find your pose**, click a preset: Standing, Walking, Running, Zombie, T-pose, Sitting, Wave, Crouch, Flex, Dab, Kick or Propose. **Saved** shows poses you saved. Under **03 / Appearance**, **Hold a flower** puts a flower in the right hand.
 
 1. **Presets**.
-2. **Custom pose**: drag body parts or use the sliders.
+2. **Custom pose · drag limbs**.
+3. **04 / Make it yours**: pick a body part and turn it with the sliders.
 
 ### Step 2 · Make your own pose
 
-Press **Custom pose (drag parts on model)**, then drag any body part on the model to rotate it around its joint.
+Press **Custom pose · drag limbs**, then drag any body part on the model to rotate it around its joint.
 
-For exact angles, pick a part (Head, Body, Right Arm…) and use the **Swing, Twist, Raise** and **Elbow** sliders. **Reset** puts one part back; **Reset all** puts everything back.
+For exact angles, choose a **Selected body part** (Head, Body, Right Arm…) in **04 / Make it yours** and use the **X, Y, Z** and **E** (elbow / knee) sliders. **Mirror limbs** moves the other side too. **Reset limb** puts one part back; the reset button next to the title puts everything back. **Save pose** keeps it under **Saved**.
 
 ### Step 3 · View and screenshot
 
-**View**: turn the model left or right, or **Face front**. **BG** changes the background (including transparent).
+**05 / Frame the moment**: pick a **Viewpoint** (Front · Eye level and more), a **Background** (including see-through) and the **Floor grid**. Drag on the stage to orbit, right-drag to move, scroll to zoom.
 
-Press **Screenshot** to save a PNG, or **Capture Me** for videos.
+Press **Save image** to save a PNG, or **Capture Me** for videos.
 
-1. **View**: turn, face front, background.
-2. **Capture**: Screenshot or Capture Me.
+1. **Frame the moment**: viewpoint, background, floor grid.
+2. **Save image** or **Capture Me**.
 
 ### Step 4 · Record a video with Capture Me
 
-Capture Me opens a stage. Choose a pose, a **Spin** (left, still, right, with speed), a **Viewpoint** (Front, 3/4, Side, Back, High, Low) and a **Cinematic** camera move (Top reveal, Side sweep, Orbit 360, Push in, Hero rise, Face close-up) with a distance.
+Capture Me opens in 4 steps along the top. **01 Pose & spin**: a pose and a **Spin** (left, still, right, with speed). **02 Camera & movement**: a **Viewpoint** (Front, 3/4, Side, Back, High, Low) and a **Cinematic** camera move (Top reveal, Side sweep, Orbit 360, Push in, Hero rise, Face close-up), or your own **points**. **03 Appearance**: background, model and grid. **04 Record & export**.
 
-**Custom cinematic**: move the camera where you like and press **Add current view as point**; the video glides through your points.
+**Your capture** on the right sums it all up. Choose the **Duration** (3s, 5s or 10s), **Resolution** and **Aspect ratio** (16:9, 1:1 or 9:16), then press **Record video** (it shows the length, e.g. **Record 5s video**). After recording, download it as a video or press **Download GIF**. **Save image** saves a still.
 
-At the bottom choose 3, 5, 8 or 12 seconds and press **Record**. **Clean view** hides all buttons if you want to use your own screen recorder.
+The eye button under the preview is **Clean view**: it hides all buttons if you want to use your own screen recorder.
 
 All 4 ways to make a GIF or video (including a quick walking GIF of any skin) are in the guide **How to make a Minecraft skin GIF or video**.
 
-1. **Pose**.
-2. **Spin**.
-3. **Viewpoint**.
-4. **Cinematic** camera moves.
-5. **Custom cinematic** points.
-6. **Clean view, fullscreen, spin and reset**.
+1. **The 4 steps**.
+2. **Pose and Spin**.
+3. **Clean view** and full screen.
+4. **Your capture**: duration, resolution, aspect ratio.
+5. **Save image · Record video**.
 
 
 ## How to make a Minecraft skin GIF or video (4 ways)
@@ -456,7 +464,7 @@ Every way to animate a skin on MC-ENGINE: a quick walking / turning GIF or video
 
 ### Step 1 · Way 1 — Quick GIF or video of your skin
 
-Press **Upload** in the top bar to open the **Upload / Export** window. Under **More** in the **2 · Export** title bar, press **GIF / video**.
+Press **Export skin** in the editor to open the **Upload / Export** window. Under **More** in the **2 · Export** title bar, press **GIF / video**.
 
 Pick the **Motion** — **Walk + turn**, **Turn only** or **Walk only** — the **Background** (**Dark**, **Light** or **None** = see-through, GIF only) and the **Size** (**Small** or **Large**). If you made a cape, tick **Show my cape**.
 
@@ -464,57 +472,56 @@ Press **Make GIF** (plays everywhere) or **Make video** (about 6 seconds; smalle
 
 1. **Motion**.
 2. **Background** and **Size**.
-3. **Preview** of the result.
+3. **Preview** of the result (then **Download**).
 4. **Make GIF** / **Make video**.
-5. **Download**.
 
 ### Step 2 · Way 2 — GIF or video of any public skin
 
-Open any skin in **Skins** and press the **film** button at the top of its page (**Animated preview**). It opens the same maker as Way 1, for that skin.
+Open any skin in **Skins** and press **Animate** under its 3D model. It opens the same maker as Way 1, for that skin.
 
 Great for showing off a creator's skin — please credit them (their @name is on the page).
 
-1. **Animated preview** (film icon).
+1. **Animate**.
 
 ### Step 3 · Way 3 — Posed, cinematic video with Capture Me
 
-Open **Custom Pose**, choose a pose, then press **Capture Me** (on a phone: the video button at the top).
+Open **Pose**, choose a pose, then press **Capture Me**.
 
-Set the **Spin**, the **Viewpoint** and a **Cinematic** camera move — or build your own path with **Add current view as point**.
+Set the **Spin**, then in **02 Camera & movement** the **Viewpoint** and a **Cinematic** camera move — or build your own path with camera points.
 
-Under **Save**, pick **3, 5, 8 or 12 seconds** and press **Record**. It asks whether to add a cinematic: **Record custom cinematic**, pick a ready-made one, or **No, record as is**. When it's done, download the video (WebM or MP4, depending on your browser).
+In **Your capture**, pick **3s, 5s or 10s**, the resolution and the aspect ratio, and press **Record video**. When it's done, download the video (MP4 or WebM, depending on your browser), or press **Download GIF** for a looping GIF of the same clip (480 px, 15 frames a second — bigger file than the video).
 
-1. **Spin**.
-2. **Viewpoint**.
-3. **Cinematic** moves.
-4. **Custom cinematic** points.
+1. **The 4 steps**: Pose & spin, Camera & movement, Appearance, Record & export.
+2. **Pose and Spin**.
+3. **Your capture**: duration, resolution, aspect ratio.
+4. **Record video**.
 
-> 💡 For TikTok / YouTube Shorts, use a tall phone screen or Fullscreen, and the 8 or 12 second length.
+> 💡 For TikTok / YouTube Shorts, pick the **9:16** aspect ratio and the 10 second length.
 
 ### Step 4 · Way 4 — Longer clips with your own screen recorder
 
-In Capture Me, press **Clean view** (the eye button) and **Fullscreen**: every button disappears and only your character is on screen.
+In Capture Me, press **Clean view** (the eye button under the preview) and **Fullscreen**: every button disappears and only your character is on screen.
 
 Now record with any screen recorder — on Windows **Win + G** (Xbox Game Bar) or OBS, on Mac **Cmd + Shift + 5**, on phones the built-in screen recording — for as long as you like. Press **Esc** to get the buttons back.
 
-1. **Clean view · Fullscreen · Spin · Reset**.
+1. **Clean view · Fullscreen**.
 
 ### Step 5 · Still pictures (PNG renders)
 
-Want a picture instead of a clip? On **Custom Pose**, press **Screenshot** — choose the see-through **BG** first for a PNG without a background (good for thumbnails). Capture Me has a **Screenshot** button too.
+Want a picture instead of a clip? On **Pose**, press **Save image** — choose the see-through **Background** first for a PNG without a background (good for thumbnails). Capture Me has a **Save image** button too.
 
-1. **BG** (background, including see-through).
-2. **Screenshot** · **Capture Me**.
+1. **Background** (including see-through).
+2. **Save image** · **Capture Me**.
 
 ### Which way should I use?
 
 | Option | Key | What it does |
 |---|---|---|
 | GIF / video (Upload / Export window) |  | Fastest: your skin walking and turning, GIF or ~6 s video, optional cape and see-through GIF. |
-| Animated preview (any skin page) |  | The same, for any public skin. |
-| Capture Me → Record |  | Your own pose, spin, viewpoint and cinematic camera moves; 3–12 s video. |
+| Animate (any skin page) |  | The same, for any public skin. |
+| Capture Me → Record video |  | Your own pose, spin, viewpoint and cinematic camera moves; 3–10 s video, or a GIF of it with Download GIF. |
 | Capture Me → Clean view + your recorder |  | Any length, any recorder; nothing but the character on screen. |
-| Screenshot (Custom Pose / Capture Me) |  | A still PNG render, also with a see-through background. |
+| Save image (Pose / Capture Me) |  | A still PNG render, also with a see-through background. |
 
 
 ---

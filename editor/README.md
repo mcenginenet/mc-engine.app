@@ -8,7 +8,7 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 
 **Quick start:** pick a colour → choose **Pencil** (key `P`) → click on the 3D model or the template → turn the model by dragging the empty space around it → press **Upload** in the top bar to download it for Minecraft.
 
-## Every button (99)
+## Every button (96)
 
 - [Tools](#tools)
 - [Top bar](#top-bar)
@@ -40,7 +40,7 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 #### Fill (bucket) — key `B`
 
 - Fills a same-colour area at once.
-- Tolerance (side panel) also fills similar colours; "Everywhere" recolours every matching pixel on the skin.
+- Tolerance (under the tools) also fills similar colours; "Everywhere" recolours every matching pixel on the skin.
 - Also called: bucket, paint bucket, flood, replace colour.
 - Full guide: [Minecraft skin editor tools explained (with shortcut keys)](https://mc-engine.app/docs/editor-tools#step-2)
 
@@ -75,7 +75,7 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 #### Select — key `S`
 
 - Picks the area other tools are allowed to change.
-- Drag a box, or use Free Select to paint the exact pixels on the 3D model. Invert / Fill / Clear are in the side panel.
+- Drag a box, or use Free Select to paint the exact pixels on the 3D model. Invert / Fill / Clear are under the tools.
 - Also called: selection, free select, invert.
 - Full guide: [Minecraft skin editor tools explained (with shortcut keys)](https://mc-engine.app/docs/editor-tools#step-4)
 
@@ -89,28 +89,28 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 #### Shade — key `H`
 
 - Darkens or lightens pixels you paint over.
-- Hold Shift to flip between darken and lighten. Strength is in the side panel.
+- Hold Shift to flip between darken and lighten. Strength is under the tools.
 - Also called: darken, lighten, shadow, highlight.
 - Full guide: [Minecraft skin editor tools explained (with shortcut keys)](https://mc-engine.app/docs/editor-tools#step-6)
 
 #### Noise — key `N`
 
 - Paints random shades of your colour for a textured look.
-- Variation (side panel) sets how different the shades are.
+- Variation (under the tools) sets how different the shades are.
 - Also called: texture, random, grain.
 - Full guide: [Minecraft skin editor tools explained (with shortcut keys)](https://mc-engine.app/docs/editor-tools#step-6)
 
 #### Fade (gradient) — key `D`
 
 - Fades between your two colours.
-- Drag across the area. Bands and dither are in the side panel.
+- Drag across the area. Bands and dither are under the tools.
 - Also called: gradient, blend, bands, dither.
 - Full guide: [Minecraft skin editor tools explained (with shortcut keys)](https://mc-engine.app/docs/editor-tools#step-6)
 
 #### Stamp — key `T`
 
 - Adds ready-made eyes, mouths and more.
-- Pick a stamp in the side panel and click the skin, or use "Put on face".
+- Pick a stamp under the tools and click the skin, or use "Put on face".
 - Also called: eyes, mouth, face, sticker.
 - Full guide: [Minecraft skin editor tools explained (with shortcut keys)](https://mc-engine.app/docs/editor-tools#step-6)
 
@@ -161,8 +161,8 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 
 #### Colour
 
-- The colour square at the bottom of the tool strip is your colour.
-- Click it to choose any colour or type a hex code.
+- Your colour is the big square at the top of Palette (top left).
+- Click in the colour box, slide the rainbow bar or type a hex code.
 - Also called: color, colour picker, pick colour, hex.
 - Full guide: [Colours, brush size, opacity and palettes](https://mc-engine.app/docs/colours-palette#step-2)
 
@@ -177,13 +177,13 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 
 #### Tool names (A)
 
-- The A button at the far left shows or hides the names under the tool icons.
+- The T button next to the tool name shows or hides the names under the tool icons.
 - Also called: labels, text under icons, show names, font.
 - Full guide: [Make the editor yours: toolbar, tips, panels and layout](https://mc-engine.app/docs/editor-workspace#step-1)
 
 #### 2D / 3D view
 
-- 2D Edit = the flat texture, 3D Edit = paint on the model, 2D + 3D = both side by side.
+- 3D = paint on the model, 2D = the flat texture, the side-by-side button shows both.
 - Also called: 3d edit, 2d edit, 2d + 3d, split, view mode, editing view.
 - Full guide: [The top bar: 2D / 3D view, HD size, undo and model](https://mc-engine.app/docs/editor-top-bar#step-1)
 
@@ -239,37 +239,18 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 - Also called: labels, front back, face names, which face.
 - Full guide: [Make the editor yours: toolbar, tips, panels and layout](https://mc-engine.app/docs/editor-workspace#step-2)
 
-#### Selected part label
-
-- Shows which part, layer and size you are working on, e.g. "Body Front · base · 8×12".
-- Also called: body front, part layer size, what am i editing.
-- Full guide: [Minecraft skin layers: base, overlay (hat & jacket) and body parts](https://mc-engine.app/docs/layers-body-parts#step-2)
-
-#### Reset layout
-
-- Puts panel sizes and the 2D / 3D split back to normal.
-- It only shows after you resized something.
-- Also called: panels, split, sizes.
-- Full guide: [Make the editor yours: toolbar, tips, panels and layout](https://mc-engine.app/docs/editor-workspace#step-3)
-
 #### Tips tour
 
-- The ? button gives a quick tour of the editor.
+- Show tips (top bar, right) gives a quick tour of the editor.
 - Also called: help, tour, question.
 - Full guide: [Make the editor yours: toolbar, tips, panels and layout](https://mc-engine.app/docs/editor-workspace#step-2)
-
-#### Show / hide side panel
-
-- The button at the far right hides the side panel for a bigger canvas, and shows it again.
-- Also called: properties, right panel, more space, hide panel.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-1)
 
 #### Restore draft
 
 - The editor saves drafts in this browser.
 - "Continue where you left off?" → Restore brings your last work back.
 - Also called: continue, autosave, lost work, draft.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-5)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-5)
 
 ### Side panel: brush & files
 
@@ -359,7 +340,7 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 - Load replaces the current skin (it is kept in History).
 - Where: open **Import skin** first, then it shows.
 - Also called: username, player name, mojang, copy skin.
-- Full guide: [How to get a Minecraft skin from a username](https://mc-engine.app/docs/skin-from-username#step-2)
+- Full guide: [How to get and download a Minecraft skin and cape by username](https://mc-engine.app/docs/skin-from-username#step-2)
 
 #### Skin history (username)
 
@@ -367,7 +348,7 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 - The list grows each time the player is looked up after changing skins.
 - Where: open **Import skin** first, then it shows.
 - Also called: old skins, past skins, previous skin, namemc, skin history.
-- Full guide: [How to get a Minecraft skin from a username](https://mc-engine.app/docs/skin-from-username#step-3)
+- Full guide: [How to get and download a Minecraft skin and cape by username](https://mc-engine.app/docs/skin-from-username#step-3)
 
 #### Share link
 
@@ -383,35 +364,35 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 - Same as Mirror (F) and Flip (Y): paint both sides, or top and bottom of the part, at once.
 - Where: open **Symmetry** first, then it shows.
 - Also called: mirror, both sides.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-2)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-2)
 
 #### Symmetry → Base / Sleeves / Both
 
 - Chooses which layer the copy buttons copy: base, sleeves/pants, or both.
 - Where: open **Symmetry** first, then it shows.
 - Also called: which layer, sleeves, pants.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-2)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-2)
 
 #### Copy arm to the other arm
 
 - Copies one arm onto the other, mirrored. It overwrites the other arm.
 - Where: open **Symmetry** first, then it shows.
 - Also called: copy limb, copy arm, right arm, left arm.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-2)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-2)
 
 #### Copy leg to the other leg
 
 - Copies one leg onto the other, mirrored. It overwrites the other leg.
 - Where: open **Symmetry** first, then it shows.
 - Also called: copy limb, copy leg, right leg, left leg.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-2)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-2)
 
 #### Turn part upside down
 
 - Flips the selected part upside down.
 - Where: open **Symmetry** first, then it shows.
 - Also called: flip part, rotate, upside down.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-2)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-2)
 
 ### Side panel: palette
 
@@ -490,28 +471,28 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 
 - Skins saved in this browser while you work. Click one to open it again.
 - Also called: autosave, saved work, older draft.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-5)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-5)
 
 #### History
 
 - Every change in order — click a step to go back to it.
 - Also called: steps, go back, older version.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-5)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-5)
 
 #### Cape
 
 - Make a cape → paint it, start from a template or upload a picture, and see it on the model.
 - Where: open **Cape** first, then it shows.
 - Also called: cape maker, make a cape.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-6)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-6)
 
 #### Upload a cape or picture
 
-- Edit cape → Upload cape or picture (PNG, JPG, WebP up to 2 MB, GIF up to 5 MB).
-- Crop it, pick Whole cape file / Picture on the cape / Picture on the wings and the size, then Use this.
+- Edit cape → Upload cape, elytra or picture (PNG, JPG, WebP up to 2 MB, GIF up to 5 MB).
+- Crop it, pick Wear as Cape or Elytra, the whole file or a picture, and the size, then Use this.
 - Where: open **Cape** first, then it shows.
 - Also called: upload cape, cape picture, cape image, crop cape, import cape, cape png, cape jpg.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-6)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-6)
 
 #### HD cape size (128×64 – 512×256)
 
@@ -519,7 +500,7 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 - Switch any time — going smaller and back up brings the full detail back. Brush sets the pencil size, Zoom makes the picture bigger.
 - Where: open **Cape** first, then it shows.
 - Also called: hd cape, cape size, cape resolution, 512x256, 256x128, 128x64, high resolution cape, cape brush, cape zoom.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-6)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-6)
 
 #### Moving GIF cape
 
@@ -527,7 +508,7 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 - What you paint goes on every frame. Minecraft capes can't move, so PNG downloads use the first frame.
 - Where: open **Cape** first, then it shows.
 - Also called: gif cape, animated cape, moving cape, animated elytra, cape animation.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-6)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-6)
 
 #### Download the cape (PNG, HD or moving GIF)
 
@@ -535,7 +516,7 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 - Upload / Export → "Include my cape" puts it in the Java .zip or the Bedrock .mcpack.
 - Where: open **Cape** first, then it shows.
 - Also called: download cape, save cape, export cape, cape gif download, cape zip, cape mcpack.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-6)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-6)
 
 #### Character builder
 
@@ -543,14 +524,14 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 - Use this skin replaces the whole skin (Undo brings it back).
 - Where: open **Templates & stamps** first, then it shows.
 - Also called: make a character, pick hair, outfit, avatar maker, random skin, skin creator.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-3)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-3)
 
 #### Elytra (wear cape as wings)
 
 - In Cape, switch "Cape / Elytra" to see your cape picture as elytra wings on the 3D model.
 - Where: open **Cape** first, then it shows.
 - Also called: elytra, wings, cape wings.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-6)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-6)
 
 #### Paint the cape in 3D
 
@@ -558,7 +539,7 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 - For elytra, "Open wings" spreads them so both sides are easy to paint.
 - Where: open **Cape** first, then it shows.
 - Also called: cape 3d, draw on cape, paint elytra, open wings.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-6)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-6)
 
 #### Starter templates
 
@@ -566,28 +547,28 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 - These replace the whole skin; Steve and Alex switch to their own model.
 - Where: open **Templates & stamps** first, then it shows.
 - Also called: starter steve, starter alex, blank body, start from, template.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-3)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-3)
 
 #### Clothing templates
 
 - T-shirt, long sleeves, hoodie, pants, shorts, shoes, belt, gloves or a cap — painted in your colour.
 - Where: open **Templates & stamps** first, then it shows.
 - Also called: t-shirt, long sleeves, hoodie, pants, shorts, shoes, belt, gloves, cap, clothes.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-3)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-3)
 
 #### Hair templates
 
 - Short, fringe, side part, spiky, bob, long, ponytail or buzz cut — painted in your colour, already shaded.
 - Where: open **Templates & stamps** first, then it shows.
 - Also called: short, fringe, side part, spiky, bob, long hair, ponytail, buzz cut, hairstyle.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-3)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-3)
 
 #### Hair shading tip
 
 - A short how-to for shading hair so it looks less flat.
 - Where: open **Templates & stamps** first, then it shows.
 - Also called: shade hair, hair tips.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-7)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-7)
 
 #### Stamps (eyes, mouths…)
 
@@ -595,40 +576,40 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 - Extras → Steve face / Alex face puts their whole face on. Click the skin, or use "Put on face".
 - Where: open **Templates & stamps** first, then it shows.
 - Also called: eyes, mouths, brows, extras, anime, happy, sleepy, glowing, big eyes, alex face, alex eyes, alex stamp, steve face, steve eyes, steve stamp.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-3)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-3)
 
 #### Reference image
 
 - Load image puts a picture beside the canvas to copy from (up to 15 MB). It stays on your device.
 - Where: open **Reference image** first, then it shows.
 - Also called: picture beside, trace, reference, load image.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-4)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-4)
 
 #### Skin check
 
 - Checks the skin for common problems, like see-through pixels where Minecraft needs solid ones.
 - Also called: problems, transparent, missing pixels, errors.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-4)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-4)
 
 #### More adjustments
 
 - Sliders for opacity, brightness, contrast, saturation, highlights, hue, shadows and gamma of the skin.
 - Also called: brightness, contrast, saturation, highlights, shadows, hue, gamma, colour correction.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-5)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-5)
 
 #### Invert colours
 
 - Turns every colour into its opposite (in More adjustments).
 - Where: open **More adjustments** first, then it shows.
 - Also called: negative, opposite colours.
-- Full guide: [Side panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-5)
+- Full guide: [Editor panels: symmetry, drafts, history, templates, cape and more](https://mc-engine.app/docs/editor-panels#step-5)
 
 ### Tool settings (side panel)
 
 #### Fill → Tolerance
 
 - 0 fills only the exact same colour; higher also fills similar colours.
-- Shows in the side panel when Fill is picked.
+- Shows under the tools when Fill is picked.
 - Where: open **Bucket** first, then it shows.
 - Also called: bucket tolerance, similar colours.
 - Full guide: [Minecraft skin editor tools explained (with shortcut keys)](https://mc-engine.app/docs/editor-tools#step-7)
@@ -722,11 +703,11 @@ The MC-ENGINE skin editor is where you paint a Minecraft skin pixel by pixel —
 - [Minecraft skin layers: base, overlay (hat & jacket) and body parts](#minecraft-skin-layers-base-overlay-hat--jacket-and-body-parts)
 - [Colours, brush size, opacity and palettes](#colours-brush-size-opacity-and-palettes)
 - [Image to colour palette: get the colours of any picture](#image-to-colour-palette-get-the-colours-of-any-picture)
-- [Side panels: symmetry, drafts, history, templates, cape and more](#side-panels-symmetry-drafts-history-templates-cape-and-more)
+- [Editor panels: symmetry, drafts, history, templates, cape and more](#editor-panels-symmetry-drafts-history-templates-cape-and-more)
 - [Make the editor yours: toolbar, tips, panels and layout](#make-the-editor-yours-toolbar-tips-panels-and-layout)
 - [How to make an HD Minecraft skin (128x128, 256x256 or 512x512)](#how-to-make-an-hd-minecraft-skin-128x128-256x256-or-512x512)
 - [Minecraft skin template explained (64x64 layout)](#minecraft-skin-template-explained-64x64-layout)
-- [How to get a Minecraft skin from a username](#how-to-get-a-minecraft-skin-from-a-username)
+- [How to get and download a Minecraft skin and cape by username](#how-to-get-and-download-a-minecraft-skin-and-cape-by-username)
 - [Keyboard shortcuts](#keyboard-shortcuts)
 - [How to make a Minecraft skin on your phone (Android & iPhone)](#how-to-make-a-minecraft-skin-on-your-phone-android--iphone)
 
@@ -738,30 +719,31 @@ From an empty editor to a skin you can wear in Minecraft: pick a model, choose c
 
 ### Step 1 · Open the Editor
 
-Click **Editor** (the brush icon) in the menu on the left. You don't need an account: your work is saved in your browser automatically.
+Click **Skin Editor** in the top menu. You don't need an account: your work is saved in your browser automatically.
 
 The editor has four areas. You will use all of them in the next steps.
 
-1. **Tool strip**: pencil, eraser, bucket, shapes and more.
-2. **Top bar**: view (2D / 3D), skin size, undo / redo, model type.
-3. **Canvas**: where you paint, on the flat skin or right on the 3D model.
-4. **Side panel**: brush size, layers, body parts, palette and more.
+1. **Colours and body parts**: your colour, My colours, the body parts and History.
+2. **Tools and panels**: pencil, eraser, fill, shapes and more, brush size, opacity, and the list of panels (Files, Templates & stamps, Layers…).
+3. **Top bar**: 3D / 2D, skin size, Steve / Alex, Import skin, Export skin, undo / redo.
+4. **Canvas**: where you paint, on the 3D model or on the flat skin.
 
 ### Step 2 · Start from a skin, or from scratch
 
-Already have a skin or a picture? Press **Upload** in the side panel and choose the file.
+Already have a skin or a picture? Press **Import skin** in the top bar and choose the file.
 
-Want a clean start? Open **Templates & stamps** in the side panel and pick **Starter Steve**, **Starter Alex** or **Blank body**.
+Want a clean start? Open **Templates & stamps** in the panel list and pick **Starter Steve**, **Starter Alex** or **Blank body**.
 
-1. **Upload** opens a skin or any picture. **Export** goes to the download page.
+1. **Import skin** opens a skin or any picture. **Export skin** downloads it.
+2. **Templates & stamps**: starter skins and face stamps.
 
-> 💡 You can also type a Minecraft player name in **Import skin** to load their current skin.
+> 💡 You can also type a Minecraft player name in **Import by player name** to load their current skin.
 
 ### Step 3 · Choose Steve or Alex
 
 Minecraft has two body shapes. **Steve** (Classic) has arms 4 pixels wide, **Alex** (Slim) has arms 3 pixels wide.
 
-Pick the one you want under **Player model**. When you put the skin in Minecraft, choose the same one.
+Pick the one you want with **Steve** or **Alex** in the top bar. When you put the skin in Minecraft, choose the same one.
 
 The editor starts on **Steve** with the Steve skin ready to edit, and remembers which model you picked. Picking **Alex** loads the Alex skin and **Steve** the Steve skin — while the canvas is empty or still holds the untouched starter skin, with nothing to undo. A skin you made (or could undo back to) is never replaced; use **Starter Steve / Starter Alex** for that.
 
@@ -769,28 +751,28 @@ The editor starts on **Steve** with the Steve skin ready to edit, and remembers 
 
 ### Step 4 · Pick a colour and paint
 
-Click the big round **colour button** at the bottom of the tool strip and choose a colour.
+Pick a colour in **Palette** at the top left: click in the big colour box, slide the rainbow bar, or type a hex code.
 
 Select the **Pencil** (key **P**) and click on the model or the flat skin to paint pixels. Hold the mouse button and drag to paint many pixels.
 
 Made a mistake? Press **Ctrl + Z** to undo.
 
 1. **Pencil**: paints one pixel (or more with a bigger brush).
-2. **Colour button**: your current colour. The small dots above it are recent colours.
+2. **Palette**: your current colour, the colour box and the rainbow bar. **My colours** below keeps colours you save.
 
-> 💡 Turn on **Mirror X** (key **F**) to paint the left and right side at the same time.
+> 💡 Turn on **Mirror** in the top bar (key **F**) to paint the left and right side at the same time.
 
 ### Step 5 · Check every side in 3D
 
-In **3D Edit**, drag on an empty part of the canvas to turn the model and scroll to zoom. Press **Reset Camera** to go back to the start view.
+In **3D**, drag on an empty part of the canvas to turn the model and scroll to zoom. The camera button in the zoom bar under the model goes back to the start view.
 
-Switch to **2D Edit** to see the whole flat skin at once. Each body part has 6 faces: front, back, left, right, top and bottom.
+Switch to **2D** in the top bar to see the whole flat skin at once. Each body part has 6 faces: front, back, left, right, top and bottom.
 
 1. The **skin texture**: this flat picture is exactly what Minecraft wraps around the model.
 
 ### Step 6 · Download it
 
-Press **Export** in the side panel (or **Upload** in the top bar) — the **Upload / Export** window opens. In **2 · Export**, pick **Java Edition** or **Bedrock Edition**, keep **Only download** chosen, then press **Download**.
+Press **Export skin** in the top bar — the **Upload / Export** window opens. In **2 · Export**, pick **Java Edition** or **Bedrock Edition**, keep **Only download** chosen, then press **Download**.
 
 The guide **How to put a custom skin in Minecraft Java & Bedrock** shows how to wear it.
 
@@ -800,35 +782,35 @@ The guide **How to put a custom skin in Minecraft Java & Bedrock** shows how to 
 
 ## Minecraft skin editor tools explained (with shortcut keys)
 
-What each button in the tool strip does — pencil, eraser, bucket, shapes, select, move, shade, noise, gradient, stamps, mirror and zoom — their settings (tolerance, replace colour, gradient bands, free select) and their keyboard keys.
+What each tool does — pencil, eraser, fill, picker, shapes, select, move, shade, noise, fade, stamps, mirror and zoom — their settings (tolerance, replace colour, fade bands, free select) and their keyboard keys.
 
 *On the website, with screenshots: https://mc-engine.app/docs/editor-tools*
 
-### Step 1 · The tool strip
+### Step 1 · The tools
 
-The tools are in the strip on the left of the editor, from top to bottom. Hover over any tool to see its name and key, like the Pencil tip in the picture.
+The tools are in the second column of the editor, under the name of the tool you are using (with its key, like **P** for Pencil). Hover over any tool to see its name and key.
 
-Only one tool is active at a time; it is shown in green.
+Only one tool is active at a time; it is shown in green. **Mirror**, the **grid** and **zoom** are in the top bar and under the model.
 
-1. **Drawing tools**: Pencil, Eraser, Bucket, Eyedropper, Line, Rectangle, Circle, Select, Move.
-2. **Effect tools**: Shade, Noise, Gradient, Stamp.
-3. **Mirror X, Mirror Y and Grid**.
-4. **Zoom in, zoom out** and Reset camera / Fit to view.
-5. **Colours**: recent colours and your current colour.
+1. **Drawing tools**: Pencil, Eraser, Fill, Picker, Line, Box, Circle, Select, Move, Shade.
+2. **Effect tools**: Noise, Fade, Stamp.
+3. **Tool names** on / off, and **Edit** to hide or reorder tools.
+4. **Brush size** and **Opacity**.
+5. **Symmetry**, and the **grid** button next to it.
 
 ### Step 2 · Paint, erase and fill
 
-**Pencil (P)** paints in your colour. Change how big it is with **Size** in the side panel, and how see-through with **Opacity**.
+**Pencil (P)** paints in your colour. Change how big it is with **Brush size** under the tools, and how see-through with **Opacity**.
 
-**Eraser (E)** makes pixels transparent again. In the side panel, **Eraser mode** has **Erase** and **Restore Original**: after you upload a skin or picture, Restore Original brings back the uploaded pixels instead of a hole.
+**Eraser (E)** makes pixels transparent again. Its options under the tools have **Erase** and **Restore Original**: after you upload a skin or picture, Restore Original brings back the uploaded pixels instead of a hole.
 
-**Bucket (B)** fills a whole area of the same colour at once.
+**Fill (B)** fills a whole area of the same colour at once.
 
-**Eyedropper (I)** copies a colour from the skin: click any pixel and it becomes your colour.
+**Picker (I)** copies a colour from the skin: click any pixel and it becomes your colour. The picker button next to your colour in **Palette** does the same.
 
 ### Step 3 · Lines and shapes
 
-**Line (L)**, **Rectangle (R)** and **Circle (C)**: press where the shape starts, drag, and let go where it ends.
+**Line (L)**, **Box (R)** and **Circle (C)**: press where the shape starts, drag, and let go where it ends.
 
 Shapes are great for belts, stripes, buttons and eyes.
 
@@ -842,7 +824,7 @@ With a selection you can fill it, copy (**Ctrl + C**), cut (**Ctrl + X**), paste
 
 ### Step 5 · More ways to select
 
-When **Select** is on, the side panel shows **Selection** buttons:
+When **Select** is on, its **Selection** buttons show under the tools:
 
 **Free Select**: instead of a box between two points, drag on the 3D model to paint exactly the pixels you want selected — any mix of parts and faces in one selection.
 
@@ -850,37 +832,37 @@ When **Select** is on, the side panel shows **Selection** buttons:
 
 Click without dragging to select a single pixel. The small arrow next to **Selection** shows a short tip for the tool.
 
-### Step 6 · Shade, Noise, Gradient and Stamp
+### Step 6 · Shade, Noise, Fade and Stamp
 
 **Shade (H)** makes pixels a bit darker each time you paint over them. Hold **Shift** to make them lighter instead. Perfect for folds in clothes and shadows under hair.
 
 **Noise (N)** paints random shades of your colour, so a flat area looks like fabric, stone or fur.
 
-**Gradient (D)** fades from your first colour to your second colour. Drag across the area. Set the second colour next to the colour button, and press **X** to swap the two.
+**Fade (D)** fades from your first colour to your second colour. Drag across the area. Set the second colour in the **Palette** window (the **…** next to Palette), and press **X** to swap the two.
 
 **Stamp (T)** adds ready-made eyes, mouths, brows and more with one click.
 
-### Step 7 · Tool settings in the side panel
+### Step 7 · Tool settings
 
-Many tools have extra settings at the top of the side panel. They change when you pick another tool.
+Many tools have extra settings right under the tools. They change when you pick another tool.
 
 **Shade**: choose **Darken** or **Lighten**, and set the **Strength**. Each pixel changes once per stroke — lift the mouse and paint again to go further.
 
 **Noise**: **Variation** sets how different the random shades are. Low = subtle fabric, high = rough stone or grass.
 
-**Bucket**: **Tolerance** (0 = only the exact same colour, higher = similar colours get filled too). Switch **Connected area only** to **Everywhere (replace colour)** to recolour every matching pixel on the whole skin at once — great for changing a shirt or hair colour everywhere.
+**Fill**: **Tolerance** (0 = only the exact same colour, higher = similar colours get filled too). Switch **Connected area only** to **Everywhere (replace colour)** to recolour every matching pixel on the whole skin at once — great for changing a shirt or hair colour everywhere.
 
-**Gradient**: shows your two colours and a swap button. **Bands** picks **Smooth** or 2–8 flat colour bands (pixel-art style). With bands, **Dither between bands** mixes the edges in a checker pattern. **Keep empty pixels empty** only colours pixels that are already painted. The gradient fills the selection if there is one, otherwise the part (or the face you start on).
+**Fade**: shows your two colours and a swap button. **Bands** picks **Smooth** or 2–8 flat colour bands (pixel-art style). With bands, **Dither between bands** mixes the edges in a checker pattern. **Keep empty pixels empty** only colours pixels that are already painted. The gradient fills the selection if there is one, otherwise the part (or the face you start on).
 
 **Stamp**: pick a stamp, then click the canvas or model — or press **Put on face** to place it at its usual spot. Pixels marked "P" use your colour.
 
 ### Step 8 · Mirror, grid and zoom
 
-**Mirror X (F)** paints the left and right side at the same time. **Mirror Y (Y)** paints top and bottom at the same time.
+**Mirror (F)** in the top bar paints the left and right side at the same time. **Mirror Y (Y)** (in **Symmetry**) paints top and bottom at the same time.
 
-**Grid (G)** shows or hides the lines between pixels.
+**Grid (G)** (the button next to **Symmetry**) shows or hides the lines between pixels.
 
-**Zoom in (+)** and **Zoom out (−)** make the pixels bigger or smaller. In 3D they move the camera.
+**Zoom in (+)** and **Zoom out (−)** in the zoom bar under the model make the pixels bigger or smaller. In 3D they move the camera.
 
 ### All tools and keys
 
@@ -888,18 +870,18 @@ Many tools have extra settings at the top of the side panel. They change when yo
 |---|---|---|
 | Pencil | `P` | Draw pixels in your colour. |
 | Eraser | `E` | Erase pixels back to transparent. |
-| Bucket | `B` | Fill a same-colour area at once. |
-| Eyedropper | `I` | Click the skin to pick its colour. |
+| Fill | `B` | Fill a same-colour area at once. |
+| Picker | `I` | Click the skin to pick its colour. |
 | Line | `L` | Drag to draw a straight line. |
-| Rectangle | `R` | Drag to draw a box outline. |
+| Box | `R` | Drag to draw a box outline. |
 | Circle | `C` | Drag to draw a circle outline. |
 | Select | `S` | Pick the area tools can change. |
 | Move | `M` | Box some pixels, then drag them. |
 | Shade | `H` | Darken or lighten pixels — Shift flips. |
 | Noise | `N` | Paint random shades for a textured look. |
-| Gradient | `D` | Drag to fade between your two colours. |
+| Fade | `D` | Drag to fade between your two colours. |
 | Stamp | `T` | Click to add eyes, mouths and more. |
-| Mirror X | `F` | Paint left and right sides at once. |
+| Mirror | `F` | Paint left and right sides at once. |
 | Mirror Y | `Y` | Paint top and bottom at once. |
 | Grid | `G` | Show or hide the pixel grid. |
 | Swap colours | `X` | Swap your first and second colour. |
@@ -912,11 +894,11 @@ Many tools have extra settings at the top of the side panel. They change when yo
 |---|---|---|
 | Shade → Darken / Lighten, Strength |  | Direction and how much each pass changes the pixel. |
 | Noise → Variation |  | How far the random shades go from your colour. |
-| Bucket → Tolerance |  | 0 = exact colour only; higher fills similar colours too. |
-| Bucket → Everywhere (replace colour) |  | Recolour every matching pixel on the whole skin. |
-| Gradient → Bands |  | Smooth, or 2–8 flat bands. |
-| Gradient → Dither between bands |  | Checker-mix the band edges. |
-| Gradient → Keep empty pixels empty |  | Only colour pixels that are already painted. |
+| Fill → Tolerance |  | 0 = exact colour only; higher fills similar colours too. |
+| Fill → Everywhere (replace colour) |  | Recolour every matching pixel on the whole skin. |
+| Fade → Bands |  | Smooth, or 2–8 flat bands. |
+| Fade → Dither between bands |  | Checker-mix the band edges. |
+| Fade → Keep empty pixels empty |  | Only colour pixels that are already painted. |
 | Stamp → Put on face |  | Place the stamp at its usual spot. |
 | Select → Free Select |  | Paint the exact pixels to select on the 3D model. |
 | Select → Invert / Fill / Clear Selection |  | Swap, fill or remove the selection. |
@@ -924,51 +906,48 @@ Many tools have extra settings at the top of the side panel. They change when yo
 
 ## The top bar: 2D / 3D view, HD size, undo and model
 
-Switch between 2D, 3D and side-by-side, make HD 128×128, 256×256 or 512×512 skins, undo / redo, compare before and after, and change the background.
+Switch between 3D, 2D and side-by-side, make HD 128×128, 256×256 or 512×512 skins, pick Steve or Alex, import and export, undo / redo, compare before and after, and change the background.
 
 *On the website, with screenshots: https://mc-engine.app/docs/editor-top-bar*
 
 ### Step 1 · Choose how you see the skin
 
-Click the first button in the top bar (it shows the current view) to open the view menu.
+The first buttons in the top bar switch the view: **3D** lets you paint straight on the model, **2D** shows the flat skin texture, and the **side-by-side** button shows both at once.
 
-**2D Edit** shows the flat skin texture, **3D Edit** lets you paint straight on the model, and **2D + 3D** shows both side by side.
+1. **3D · 2D · side by side**.
 
-1. The **view button**.
-2. The **view menu**: 2D Edit, 3D Edit, 2D + 3D.
-
-> 💡 Beginners: paint in **3D Edit** — you see exactly where each pixel lands on the body.
+> 💡 Beginners: paint in **3D** — you see exactly where each pixel lands on the body.
 
 ### Step 2 · Make an HD skin
 
-The second button sets the skin size: **64×64** (normal), **128×128**, **256×256** or **512×512** (HD).
+The size button (it shows **64 × 64**) opens the skin size menu: **64 × 64** (normal), **128 × 128**, **256 × 256** or **512 × 512** (HD).
 
 Java Edition uses 64×64. Bedrock also accepts 128×128. HD skins give you more detail, like a real face.
 
-1. **Skin size**: 64×64, 128×128, 256×256 or 512×512.
+1. The **size button**.
+2. **Skin size**: 64×64, 128×128, 256×256 or 512×512.
 
 ### Step 3 · Undo, redo, clear, repair and compare
 
-The next buttons are: **Undo** (Ctrl + Z), **Redo** (Ctrl + Y), **Clear part** (the red bin — empties the selected body part), **Repair** (sends the skin to Skin Repair) and **Before / after** (compare with how the skin looked when you opened the editor).
+On the right of the top bar: **Before / after** (compare with how the skin looked when you opened the editor), **Repair this skin** (sends it to Skin Repair), **Show tips**, **How it works**, **Clear selected part** (empties the selected body part), **Clear the whole skin**, **Undo** (Ctrl + Z), **Redo** (Ctrl + Y) and **Full screen**.
 
-Every change is also listed in the **History** panel, where you can click any step to go back to it.
+Every change is also listed in **History** at the bottom left, where you can click any step to go back to it.
 
-1. **Undo · Redo · Clear part · Repair · Before / after**.
+1. **Before / after · Repair · Tips · How it works · Clear part · Clear skin · Undo · Redo · Full screen**.
+2. **History**.
 
 ### Step 4 · Background, grid floor, pose, model and camera
 
-The round dots change the **background colour** of the 3D view. The grid button shows or hides the **floor grid**, and the person button turns the walking **animation** on or off.
+The buttons at the top right of the 3D view: the **floor grid** (off at first — press it to show the floor), **background on / off** (the night sky, or a colour you pick) and **full screen**.
 
-**Classic / Slim** switches the model, and **Reset Camera** puts the 3D view back to the start.
+In the top bar, the person button is the **Pose** menu (walking and other poses), and the **shield** is the **Armor preview**: put on a full set (leather, chain, iron, gold, diamond or netherite) or pick each piece — helmet, chestplate, leggings, boots. Leather takes any dye colour. It is only a preview; armor is never painted into your skin.
 
-The **shield** button is the **Armor preview**: put on a full set (leather, chain, iron, gold, diamond or netherite) or pick each piece — helmet, chestplate, leggings, boots. Leather takes any dye colour. It is only a preview; armor is never painted into your skin.
+**Steve / Alex** switches the model. The zoom bar under the model has **reset camera**, **zoom out**, the zoom level, **zoom in** and **fit**.
 
-On the right of the top bar you always see which **part, layer and size** you are working on (for example "Body Front · base · 8×12").
-
-1. **Background colours**.
-2. **Floor grid** and **animation**.
-3. **Classic / Slim** model.
-4. **Reset Camera**.
+1. **Floor grid · background on / off · full screen**.
+2. **Pose** and **Armor preview**.
+3. **Steve / Alex** model.
+4. **Zoom bar** and reset camera.
 
 
 ## Minecraft skin layers: base, overlay (hat & jacket) and body parts
@@ -981,20 +960,18 @@ Paint hats, jackets and sleeves on the second layer, lock painting to one body p
 
 Every Minecraft skin has two layers. **Base** is the body itself. **Overlay** is a second, outer layer that floats just above it — use it for hats, hair, jackets, sleeves and pants.
 
-Switch with the **Base / Overlay** buttons under **Body parts**. Overlay pixels can be see-through, so the base shows through the gaps.
+Switch with the **Base / Overlay** buttons at the bottom left of the canvas. Overlay pixels can be see-through, so the base shows through the gaps.
 
-1. **Base / Overlay**: which layer you paint on.
-2. **Body parts (visual)**: click a part to show or hide it in 3D — handy for painting under the arms.
-3. **Head, Body, Arms, Legs, Extra**: open one to jump to a single face (Front, Back, Left…).
+1. **Base / Overlay** and the **body diagram**: which layer you paint on; click a part of the little body to show or hide it in 3D — handy for painting under the arms.
+2. **Body parts**: open Head, Body, Arms or Legs to jump to a single face (Front, Back, Left…) or hide a part.
 
 ### Step 2 · Free Draw or locked to one part
 
-When **Draw mode** says **Free Draw (unlocked)**, tools work anywhere on the skin.
+At the bottom of the tools column, **Draw mode** has **Free draw**: tools work anywhere on the skin.
 
-Click it to lock: then tools only change the body part you picked, so you can't paint into the next part by mistake.
+Press **Lock to part**: then tools only change the body part you picked, so you can't paint into the next part by mistake.
 
-1. **Player model**: Steve or Alex.
-2. **Draw mode**: Free Draw (unlocked) or locked to the part.
+1. **Draw mode**: Free draw or Lock to part.
 
 ### Step 3 · Extra paint layers
 
@@ -1019,23 +996,25 @@ Pick colours, use shades of your colour, save your own palettes, build a palette
 
 ### Step 1 · Brush size and opacity
 
-At the top of the side panel, **Size** sets how many pixels the Pencil, Eraser and effect tools paint at once (1 pixel up to a big round brush).
+Under the tools, **Brush size** sets how many pixels the Pencil, Eraser and effect tools paint at once (1 pixel up to a big round brush).
 
 **Opacity** makes the paint see-through: 100% is solid, lower values mix with the colour underneath.
 
-1. **Brush**: Size buttons and the Opacity slider.
+1. **Brush size** and **Opacity** sliders.
 
 ### Step 2 · Shades of your colour
 
-Open **Palette**. The top row shows **shades of your colour** — from dark to light. Click one to use it. This is the easiest way to add shadows and highlights.
+Press the **…** next to **Palette** (top left) to open the Palette window. **Shades of your colour** shows your colour from dark to light. Click one to use it. This is the easiest way to add shadows and highlights.
 
-**Save all** keeps those shades in your own palette.
+**Save all** keeps those shades in your own palette. **Second colour** (used by Fade) and **Swap** are at the top.
 
-1. The **Palette** panel.
+1. **Second colour** and **Swap**.
+2. **Shades of your colour** and **Save all**.
+3. **My colours**: your own palettes.
 
 ### Step 3 · Your own palettes
 
-**My colours** is a list of palettes you make. **+ Colour** adds your current colour, **From skin** builds a palette from every colour in the skin, **New** starts another palette and **Rename** / **Remove** / **Delete** manage them.
+**My colours** (in the Palette window, and as small squares under the colour box) is a list of palettes you make. **+ Colour** adds your current colour, **From skin** builds a palette from every colour in the skin, **New** starts another palette and **Rename** / **Remove** / **Delete** manage them.
 
 **Import** loads a palette file (.hex, .gpl, .json or .txt); **.hex** and **.gpl** save your palette for other apps (like Lospec, Aseprite, GIMP or Krita).
 
@@ -1043,7 +1022,7 @@ To remove one colour, right-click it, or press **Remove** and click the colours 
 
 ### Step 4 · Palette from a picture
 
-Want the colours of a picture, a character or a photo? Open **Reference image**, press **Load image**, then press **Palette from this image**.
+Want the colours of a picture, a character or a photo? Open **Reference image** in the panel list, press **Load image**, then press **Palette from this image**.
 
 MC-ENGINE finds the main colours of the picture (up to 16) and saves them as a new palette named after the file. Click a colour under the button to paint with it, or find the palette later in **Palette → My colours**.
 
@@ -1058,7 +1037,7 @@ Load any picture as a reference image and turn its main colours into a palette y
 
 ### Step 1 · Load the picture
 
-In the editor's side panel, open **Reference image** and press **Load image**. Pick any picture (up to 15 MB). It stays on your device — nothing is uploaded.
+In the editor's panel list, open **Reference image** and press **Load image**. Pick any picture (up to 15 MB). It stays on your device — nothing is uploaded.
 
 1. **Reference image**.
 
@@ -1070,12 +1049,12 @@ They are saved as a new palette called "From <file name>". The colours also show
 
 ### Step 3 · Use it
 
-Open **Palette → My colours** to find the new palette any time. Add, remove or rename colours there, or download it as **.hex** / **.gpl** for other apps.
+Open **Palette** (the **…** next to it) **→ My colours** to find the new palette any time. Add, remove or rename colours there, or download it as **.hex** / **.gpl** for other apps.
 
 Tip: use **Floating** or **Trace** in Reference image to keep the picture in view while you paint with its colours.
 
 
-## Side panels: symmetry, drafts, history, templates, cape and more
+## Editor panels: symmetry, drafts, history, templates, cape and more
 
 Copy a limb to the other side, load starter skins and clothing, add face stamps, use a reference picture, find hidden pixels, adjust colours, keep drafts and make a cape.
 
@@ -1083,19 +1062,22 @@ Copy a limb to the other side, load starter skins and clothing, add face stamps,
 
 ### Step 1 · Where the panels are
 
-Scroll down the side panel of the editor. Every section opens and closes with a click on its name.
+The panels are the list under the tools in the editor. Click a name to open its window next to the list; click it again or press **×** to close it. **Symmetry** is the button above the list, and **History** is at the bottom left.
 
-1. **Import skin**: type a Minecraft Java player name and press **Import** to load their skin (and cape). Your current skin is kept in Drafts.
-2. **Symmetry, Palette, Layers, Drafts, Cape, History, Templates & stamps, Reference image, Skin check**.
-3. **Adjustments**: brightness and more for the whole skin.
+1. **Files, Templates & stamps, Reference image, Cape, Extra, Layers, Drafts**.
+2. **Import by player name**: type a Minecraft Java player name and press **Import** to load their skin (and cape). Your current skin is kept in Drafts.
+3. **Adjustments** (brightness and more for the whole skin) and **Skin check**.
 
 ### Step 2 · Symmetry: copy a limb
 
-Painted one arm and want the other one the same? Open **Symmetry**, choose **Base**, **Overlay** or **Both**, then **Right → Left** or **Left → Right** for the arms or legs.
+Painted one arm and want the other one the same? Press **Symmetry** (above the panel list), choose **Base**, **Overlay** or **Both**, then **Right → Left** or **Left → Right** for the arms or legs.
 
 **Flip part upside down** turns the selected part over. **Mirror X / Mirror Y** are here too.
 
-1. The **Symmetry** panel.
+1. **Mirror X / Mirror Y**.
+2. **Base, Overlay or Both**.
+3. **Copy a limb**: Right → Left or Left → Right, for arms and legs.
+4. **Flip part upside down**.
 
 ### Step 3 · Templates & stamps
 
@@ -1103,15 +1085,12 @@ Painted one arm and want the other one the same? Open **Symmetry**, choose **Bas
 
 **Starter skins** replace the whole skin with Starter Steve, Starter Alex or a Blank body. **Starter Steve** is the Steve skin with classic arms and **Starter Alex** the Alex skin with slim arms; each switches to its own model.
 
-**Clothing in your colour** adds a T-shirt, long sleeves, hoodie, pants, shorts, shoes, belt, gloves or a cap — in your current colour.
-
 **Face stamps** add eyes (Classic, Big, Anime, Happy, Sleepy, Glowing, Steve, Alex), mouths (including Steve and Alex), brows, hair (including Steve hair and the Alex fringe) and extras with one click. **Extras → Steve face / Alex face** puts their whole face on the head; the Steve and Alex stamps keep their own colours.
 
-1. **Starter skins**.
-2. **Clothing** in your colour.
-3. **Face stamps**: eyes, mouths, brows, extras.
-4. **Reference image**.
-5. **Skin check**.
+1. **Character builder**.
+2. **Starter skins**.
+3. **Face & hair stamps**: Eyes, Mouths, Brows, Hair, Extras.
+4. Click a **stamp** to put it on.
 
 ### Step 4 · Reference image and Skin check
 
@@ -1137,7 +1116,7 @@ Choose where it shows: **Here** (in the panel), **Floating** (a small window ove
 
 ### Step 6 · Make a cape
 
-Open **Cape** and press **Make a cape** (or **Edit cape**) to open the **Cape editor**. Paint on the flat picture or straight on the 3D model next to it — left mouse paints, right mouse turns, the wheel zooms; on a phone switch to **3D model**, one finger paints and two fingers turn. **Back / Side / Front** turn the model for you.
+Open **Cape** in the panel list and press **Make a cape** (or **Edit cape**) to open the **Cape editor**. Paint on the flat picture or straight on the 3D model next to it — left mouse paints, right mouse turns, the wheel zooms; on a phone switch to **3D model**, one finger paints and two fingers turn. **Back / Side / Front** turn the model for you.
 
 Tools: **Pencil**, **Eraser**, **Fill** (stays inside one part), **Pick a colour**, **Brush** size and **Undo**. **Zoom** (1×–4×) makes the flat picture bigger. Only the outlined parts show in game: Outside, Inside, Edges, Top, Bottom and the Elytra. **Same on both sides** copies what you paint on the outside to the inside (flipped), and the other way round.
 
@@ -1145,13 +1124,17 @@ Tools: **Pencil**, **Eraser**, **Fill** (stays inside one part), **Pick a colour
 
 **Start from** gives a ready cape in your colour and your second colour: **Solid**, **Gold trim**, **Stripe**, **Fade**, **Checker** or **Shaded**.
 
-**Upload cape or picture** loads a cape file or any picture — PNG, JPG or WebP up to 2 MB, GIF up to 5 MB. Crop it, choose where it goes (**Whole cape file**, **Picture on the cape** or **Picture on the wings**) and its size; ★ marks the most detail your crop has.
+**Upload cape, elytra or picture** loads a cape or elytra file or any picture — PNG, JPG or WebP up to 2 MB, GIF up to 5 MB — into the **Crop and adjust** window. Drag the box over the part you want (the wheel or **Size** changes it, **Fit whole picture** / **Zoom to middle** help), and the **Result** under the picture shows what you get.
 
-**Moving GIFs**: tick **Keep it moving** and the GIF plays on the cape or elytra in every 3D preview and in animated GIF / video exports. What you paint goes on every frame. Minecraft capes can’t move, so PNG downloads and packs use the first frame.
+On the right: **Use it as** (the whole cape / elytra file, or a picture on the cape or wings), **Shrinking** (**Smooth** for photos, **Sharp** for pixel art), **Wear as** (**Cape** or **Elytra** on the model) and **Cape size** — ★ marks the most detail your crop has. A moving GIF stays still unless you tick **Keep it moving**. Press **Use this**.
 
-**Download cape PNG** saves 64×32 or a sharp HD copy (128×64 to 512×256 — the elytra is in the same file); a moving cape also has **Moving GIF** downloads. **Show on the model** hides or shows the cape and **Remove cape** deletes it. Vanilla Minecraft only shows official capes — custom capes work in launchers and mods that support them.
+Want a ready cape? The **Capes & Elytra** library (in **More**) has official and community capes — **Open in editor** puts one on your skin here and opens the cape editor. See the **Capes & Elytra** guide.
 
-In the **Upload / Export** window (**Upload** in the top bar), **Include my cape** adds it to the download: Java gives a .zip with the skin, the cape PNG (and the moving GIF), Bedrock puts it inside the .mcpack (64×32). **More** (in the **2 · Export** title bar) has **Cape PNG**, **Moving cape** and **Cape picture** — your skin from behind wearing it.
+**Moving GIFs**: tick **Keep it moving** and the GIF plays on the cape or elytra in every 3D preview and in animated GIF / video exports. What you paint goes on every frame. PNG downloads and Bedrock packs use the first frame; the **Moving GIF** download keeps it moving, and the free MC-ENGINE Skins mod plays it in Minecraft Java (guide: **Moving GIF cape in Minecraft**).
+
+**Download cape PNG** saves 64×32 or a sharp HD copy (128×64 to 512×256 — the elytra is in the same file); a moving cape also has **Moving GIF** downloads. **Show on the model** hides or shows the cape and **Remove cape** deletes it. Vanilla Minecraft only shows official capes — your own capes, moving ones too, work with the free MC-ENGINE Skins mod and other cape mods and launchers.
+
+In the **Upload / Export** window (**Export skin** in the top bar), **Include my cape** adds it to the download: Java gives a .zip with the skin, the cape PNG (and the moving GIF), Bedrock puts it inside the .mcpack (64×32). **More** (in the **2 · Export** title bar) has **Cape PNG**, **Moving cape** and **Cape picture** — your skin from behind wearing it.
 
 **Wear as: Cape / Elytra** shows the same picture as a cape or as **elytra wings** — the wings use the Elytra part. Both wings share one picture, so painting one shows on the other (mirrored), like in Minecraft. **Open wings** spreads them so the inner side is easy to reach, and **Copy cape design to elytra** starts empty wings with your cape.
 
@@ -1164,33 +1147,29 @@ The **Shade** tool (Darken / Lighten) or the **Hair** face stamps make the stran
 
 ## Make the editor yours: toolbar, tips, panels and layout
 
-Hide and reorder tools, show tool names, change shortcut keys, replay the editor tour, show part names, hide the side panel and resize or reset the panels.
+Hide and reorder tools, show or hide tool names, change shortcut keys, replay the editor tour, show part names and use full screen.
 
 *On the website, with screenshots: https://mc-engine.app/docs/editor-workspace*
 
 ### Step 1 · Customise the toolbar
 
-At the bottom of the tool strip, press **Edit** (the sliders button) to open **Toolbar**.
+Next to the tool name at the top of the tools, press the **sliders** button (**Hide, show and reorder tools**) to open **Toolbar**.
 
 Tick the tools you want to see and use the **arrows** to change their order. **Mirror X**, **Mirror Y**, **Grid** and the **Zoom buttons** can be hidden too. Hidden tools still work with their keys.
 
-**Show names under the tools** adds a small label to every button. **Reset** brings back every button in the original order. **Change shortcuts** opens the key settings.
+The **T** button next to it shows or hides the **tool names** under the buttons. **Reset** brings back every button in the original order. **Change shortcuts** opens the key settings.
 
 ### Step 2 · Tips and part names
 
-The **?** button on the right of the top bar (**Show tips**) replays the short editor tour: tools, 2D / 3D, the canvas, colours and the side panel. It also plays once on your first visit.
+**Show tips** on the right of the top bar replays the short editor tour: tools, 2D / 3D, the canvas, colours and the panels. It also plays once on your first visit. **How it works** next to it opens a short help window.
 
-The **tag** button (**Part names**, in 2D views) writes the part name and Front / Back / Left / Right / Top / Bottom on every face of the flat skin.
+The **tag** button (**Show part names**, in 2D) writes the part name and Front / Back / Left / Right / Top / Bottom on every face of the flat skin.
 
-The **panel** button next to it hides or shows the side panel (properties), so the canvas gets more room.
+### Step 3 · More room and zoom
 
-### Step 3 · Resize the panels
+**Full screen** (the last button in the top bar) gives the editor the whole screen; press it again or **Esc** to go back.
 
-Drag the edges between the canvas and the panels — and between 2D and 3D in **2D + 3D** — to make them bigger or smaller. Double-click a handle to reset it.
-
-When you changed something, a **Reset layout** button appears in the top bar: it puts the panel sizes and the 2D / 3D split back to normal.
-
-Next to the zoom buttons you see the **pixel size** (for example 12px): how big one skin pixel is on screen right now.
+In 2D, the zoom bar under the sheet shows the **pixel size** (for example 11 px): how big one skin pixel is on screen right now.
 
 
 ## How to make an HD Minecraft skin (128x128, 256x256 or 512x512)
@@ -1201,7 +1180,7 @@ Switch the editor to 128x128, 256x256 or 512x512 for more detail, paint or impor
 
 ### Step 1 · Pick the skin size
 
-In the editor's top bar, click the size button (it shows **64×64**) and choose **128×128**, **256×256** or **512×512**. Each body face now has 2×, 4× or 8× as many pixels across, so you can paint finer eyes, hair and clothes.
+In the editor's top bar, click the size button (it shows **64 × 64**) and choose **128 × 128**, **256 × 256** or **512 × 512**. Each body face now has 2×, 4× or 8× as many pixels across, so you can paint finer eyes, hair and clothes.
 
 An HD skin file you upload keeps its own size (a 512×512 file opens as 512×512).
 
@@ -1215,9 +1194,9 @@ In **Repair**, the 64 / 128 / 256 buttons do the same when you place each face f
 
 1. **Model & size**: Classic / Slim and 64 / 128 / 256.
 
-### Step 3 · Where HD skins work
+### Step 3 · Where HD skins work: Java vs Bedrock
 
-**Bedrock** (phone, tablet, Windows) accepts **128×128** skins — download a **.mcpack** from Export.
+**Bedrock** (phone, tablet, Windows) accepts **128×128** skins — download a **.mcpack** with **Export skin**.
 
 **Java** only takes **64×64** skins in the official launcher. Keep a 64×64 copy for Java, or use HD in mods and launchers that support it.
 
@@ -1234,7 +1213,7 @@ What every part of the flat 64x64 Minecraft skin template is — head, hat, body
 
 ### Step 1 · The flat skin is a map of the 3D body
 
-A Minecraft skin is a 64×64 PNG. Minecraft cuts it into boxes and folds them around the head, body, arms and legs. Switch the editor to **2D Edit** to see it, and turn on **part names** in the top bar to label every box.
+A Minecraft skin is a 64×64 PNG. Minecraft cuts it into boxes and folds them around the head, body, arms and legs. Switch the editor to **2D** to see it, and turn on **Show part names** in the top bar to label every box.
 
 Each body part has 6 faces — top, bottom, front, back, right and left — laid out next to each other.
 
@@ -1248,29 +1227,29 @@ Each body part has 6 faces — top, bottom, front, back, right and left — laid
 
 Steve (Classic) arms are 4 pixels wide; Alex (Slim) arms are 3 pixels wide, so an Alex arm box is a little narrower and the last column of it is unused.
 
-**Skin check** in the side panel warns you about pixels painted in unused parts of the template — they never show in the game.
+**Skin check** in the panel list warns you about pixels painted in unused parts of the template — they never show in the game.
 
 ### Step 3 · Start from a blank template
 
-Open **Templates & stamps** and pick **Blank body**, **Starter Steve** or **Starter Alex**. Add clothing in your colour and face stamps, then paint the rest.
+Open **Templates & stamps** and pick **Blank body**, **Starter Steve** or **Starter Alex** — or build a whole character with **Character builder**. Add face stamps, then paint the rest.
 
 HD templates work the same way at 128×128 or 256×256 — every box is just 2× or 4× bigger.
 
-1. **Starter skins**: Starter Steve, Starter Alex, Blank body.
-2. **Clothing** in your colour.
+1. **Character builder**: a whole skin from parts.
+2. **Starter skins**: Starter Steve, Starter Alex, Blank body.
 
 
-## How to get a Minecraft skin from a username
+## How to get and download a Minecraft skin and cape by username
 
-Load any Minecraft Java player's current skin (and cape) by their username, then edit it, remix it or download it.
+Type any Minecraft Java username: the player's current skin and cape load in the editor, and you can download the skin (PNG or .mcpack) and the cape PNG, or edit them first.
 
 *On the website, with screenshots: https://mc-engine.app/docs/skin-from-username*
 
-### Step 1 · Open Import skin
+### Step 1 · Open Import by player name
 
-In the editor's side panel (on a phone: the **More** button), open **Import skin**.
+In the editor's panel list (on a phone: **Studio**), open **Import by player name**.
 
-1. **Import skin**: a box for the player name and an **Import** button.
+1. **Import by player name**: a box for the player name and an **Import** button.
 
 ### Step 2 · Type the player name and import
 
@@ -1286,9 +1265,21 @@ Under the box, **Skin history** shows the skins MC-ENGINE has seen this player w
 
 Minecraft itself keeps no skin history, so the list starts the first time anyone looks the player up here, and grows each time they are looked up after changing skins.
 
-### Step 4 · Edit, remix or download it
+### Step 4 · Download the skin
 
-Change anything you like with the drawing tools, then press **Export**, choose Java or Bedrock and **Download**.
+Press **Export skin**, choose **Java** (a PNG for the Minecraft Launcher) or **Bedrock** (a .mcpack) and press **Download**. You can change anything with the drawing tools first.
+
+Players already in the skins library also have their own page at **mc-engine.app/player/<name>**, with a **Download PNG** button and their skin history.
+
+### Step 5 · Download the cape
+
+If the player wears a cape, it loads together with the skin. To save the cape on its own, open **Export skin** and press **More → Cape PNG**.
+
+Or tick **Include my cape** before **Download**: Java gives a .zip with the skin and the cape PNG, Bedrock puts the cape inside the .mcpack.
+
+Every official cape found this way is also saved on the **Capes & Elytra** page, where each cape has its own page with a **Download PNG** button and the players who wear it.
+
+> 💡 Vanilla Minecraft only shows the official capes Mojang gives players; a downloaded cape PNG works in launchers and mods that support custom capes.
 
 
 ## Keyboard shortcuts
@@ -1299,42 +1290,42 @@ Every key for the editor and for moving between pages — and how to change them
 
 ### Step 1 · Switch pages with number keys
 
-**1** Home · **2** or **5** Upload / Export window · **3** Editor · **4** Preview · **6** Settings · **7** Docs. (They don't work while you type in a box.)
+**1** Home · **2** or **5** Upload / Export window · **3** Editor · **4** Preview · **6** Site settings · **7** Guides. (They don't work while you type in a box.)
 
 ### Step 2 · Change a key
 
-Open **Settings → Shortcuts** (or **Change shortcuts** in the editor's toolbar settings). Click a key, then press the new one. **Esc** cancels and **Backspace** clears it.
+Open **Profile → Edit profile → Shortcuts** (or **Change shortcuts** in the editor's toolbar settings). Click a key, then press the new one. **Esc** cancels and **Backspace** clears it.
 
 Every single-key editor shortcut can be changed. Ctrl shortcuts (like Ctrl + Z) and Delete are listed but fixed. **Reset** puts all keys back to the original ones.
 
 
 ## How to make a Minecraft skin on your phone (Android & iPhone)
 
-The editor, Repair, Photo to Skin and Custom Pose have phone versions. How the phone editor works, and how to download and wear your skin from a phone.
+The editor, Repair, Photo to Skin and Pose have phone and tablet versions. How the phone editor works, and how to download and wear your skin from a phone.
 
 *On the website, with screenshots: https://mc-engine.app/docs/phone*
 
 ### Step 1 · The phone editor
 
-On a phone, the Editor opens full screen: a thin top bar, the tools in one row you can scroll sideways, and the canvas below.
+On a phone (and on tablets or small windows, under 1100 px wide) the Editor opens full screen: a top bar (logo, Home / Repair / Pose, **Import**, the magnifier and ☰), the model, a row of view buttons, the tool card and a bottom bar.
 
-Tap a tool, then tap or drag on the skin. The **Brush** bar opens size and opacity. Shade, Noise, Gradient, Stamp and Mirror Y work like on a computer.
+Tap a tool (Pencil, Eraser, Fill, Pick, Line, Box, Circle, Select, Move, Shade, Adjust, Noise, Fade, Stamp), then tap or drag on the skin. The size, **Mirror** and **Opacity** buttons at the top of the tool card set the brush. **Colour** opens the colour picker with shades and your colours.
 
-Your work is auto-saved. When you come back you see **Continue where you left off?**.
+The bottom bar has the layer you paint on, the model and skin size, **3D / 2D**, and undo / redo. Your work is auto-saved: when you come back you see **Continue where you left off?**.
 
-> 💡 The **More** button opens the other panels: layers, palettes, templates and hair, reference image, cape, history, Skin Check, Export, **Share link** and the tips again. The **magnifier** at the top finds any button: type what you want, then **Show me** opens the right panel and points at it — on the Editor, Custom Pose and Repair.
+> 💡 **Studio** opens the other panels: parts & overlay, files, templates, reference image, cape, layers, drafts and Skin check. The **magnifier** at the top finds any button: type what you want, then **Show me** opens the right panel and points at it — on the Editor, Pose and Repair.
 
-### Step 2 · Repair, Photo to Skin and Custom Pose on a phone
+### Step 2 · Repair, Photo to Skin and Pose on a phone
 
-Open the menu (the three lines at the top left) and pick **Repair** or **Custom Pose**. Both open full screen like the editor: the 3D model or picture on top and the options in a panel at the bottom that you can open up for more room.
+Tap **Repair** or **Pose** in the top bar. Both open full screen like the editor: the 3D model or picture on top and the options in a tool card at the bottom.
 
 In Repair, **Photo to Skin** can take a photo straight from your phone's gallery or camera. The photo stays on your phone.
 
-The **?** button at the top of each of these screens explains what the tool does and how it works.
+The **?** button on each of these screens explains what the tool does and how it works.
 
 ### Step 3 · Download and wear the skin from your phone
 
-Press **Upload** in the top bar, pick **Bedrock Edition** in **2 · Export** and press **Download** to get a **.mcpack**.
+Tap **Import** in the top bar, pick **Bedrock Edition** in **2 · Export** and press **Download** to get a **.mcpack**.
 
 Then open that file: on **Android**, tap it in your Downloads; on **iPhone or iPad**, find it in the **Files** app, tap **Share** and choose **Minecraft**. Minecraft imports the skin; pick it in **Dressing Room → Classic skins**.
 

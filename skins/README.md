@@ -48,42 +48,39 @@ Create an account, publish skins to the gallery, and download, rate, favourite, 
 
 ### Step 1 · Make a free account
 
-Press **Sign Up** at the top right. Fill in a player name, email and password, tick that you are 13 or older and accept the rules, then press **Create account**. Or use **Google** or **Discord**.
+Press **Log in** at the top right and switch to **Sign up**. Fill in a player name, email and password, tick that you are 13 or older and accept the rules, then press **Create account**. Or use **Google** or **Discord**.
 
-The skin you are working on stays where it is while you sign in.
-
-1. **Log in / Sign up**.
-2. **Player name, email, password**.
-3. **Age and rules**.
-4. **Create account**.
-5. **Google / Discord**.
+A short welcome setup follows: your picture (a Minecraft face made for you), a little about you, and the site look. The skin you are working on stays where it is while you sign in.
 
 ### Step 2 · Publish your skin
 
-Press **Upload** in the top bar, choose **Public** in **2 · Export** and press **Publish to gallery** — or use **Upload Skin** on the Skins page. Give it a name and keywords so people can find it.
+Press **Export skin** in the editor, choose **Public** in **2 · Export** and press **Publish to gallery** — or use **Upload Skin** on the Skins page. Give it a name and keywords so people can find it.
 
-You can make a skin public or private, and edit or delete it any time from your **Profile**.
+You can edit or delete it any time from your **Profile**.
 
 ### Step 3 · Browse the gallery
 
-Open **Skins**. **For You** and **Trending** show public skins. Use the search at the top to find a creator, a skin name or a skin ID.
+Open **Skins** (in **More** at the top). **For You** and **Trending** show public skins, **Player skins** shows skins real Minecraft players wear (each skin once, under its best-known player), and **Draw for me** picks skins for you. Use the search at the top to find a creator, a skin name or a skin ID. **Creators to discover** on the right suggests people to follow.
 
-1. **For You / Trending**.
-2. **Upload Skin**.
+Each card shows the uploader's profile picture next to the name — or the skin's own face for player skins. Point at a card and its 3D model turns.
+
+1. **For You / Trending / Draw for me**.
+2. **My skins · Upload Skin**.
 3. A **skin card**: click to open it.
 4. **Search**: creator, skin or skin ID.
+5. **Creators to discover**.
 
 ### Step 4 · On a skin's page
 
 **Download PNG** to wear it, or **Remix in editor** to change it (the original creator gets the credit).
 
-Click the stars to **rate** it. The buttons at the top **favourite** it, **save it to a collection**, make an **animated GIF / video**, and **share / copy the link**. Logged-in users can leave **comments**.
+Click the stars under **Rate this skin** to rate it. **Favorite** hearts it, the **folder** button saves it to a collection, **Animate** (under the model) makes a GIF / video, and **Share skin** (top right) copies the link. Logged-in users can leave **comments** further down the page.
 
-1. **Favourite · Collection · Animated preview · Share**.
-2. **Download PNG**.
-3. **Remix in editor**.
-4. **Rate this skin**.
-5. **Comments**.
+1. **Download PNG**.
+2. **Remix in editor · Favorite**.
+3. **Rate this skin**.
+4. **Save to collection**.
+5. **Share skin** and **Report**.
 
 > 💡 Follow a creator with **Orbit** on their profile to see their new skins.
 
@@ -102,7 +99,7 @@ Every option when you publish — name, keywords, who can see it, thumbnail, cus
 
 ### Step 1 · Fill in the upload window
 
-Press **Upload Skin** on the Skins page (or **Upload** in the top bar → **Public** → **Publish to gallery**). Drop your skin PNG (64×64, 128×128 or 256×256), click to pick it, or paste it with **Ctrl + V**. Your skin shows in 3D — drag to turn it.
+Press **Upload Skin** on the Skins page (or **Export skin** in the editor → **Public** → **Publish to gallery**). Drop your skin PNG (64×64, 128×128 or 256×256), click to pick it, or paste it with **Ctrl + V**. Your skin shows in 3D — drag to turn it.
 
 **Skin name**: if someone already used the name you can still use it. If this exact PNG is already in your skins, you are told so.
 
@@ -110,9 +107,9 @@ Press **Upload Skin** on the Skins page (or **Upload** in the top bar → **Publ
 
 ### Step 2 · Who can see it
 
-**Only me** saves it to your profile only; you can publish it later from **My skins**.
-
 **Public · Male**, **Public · Female** or **Public · Unisex** puts it in the gallery under that group.
+
+Skins you made private before are kept as **Drafts** in **My skins** — publish them from there whenever you like.
 
 ### Step 3 · Thumbnail, custom link and group
 
@@ -124,7 +121,7 @@ Press **Upload Skin** on the Skins page (or **Upload** in the top bar → **Publ
 
 ### Step 4 · Manage My skins
 
-Open **Profile → My skins** (or **My Skins** in your user menu). Filter by **All**, **Public** or **Private**, and **Sort by** Newest, Oldest, Most downloaded or Top rated.
+Open **Profile → My skins** (or **My Skins** in your user menu). Filter by **All**, **Public** or **Drafts**, and sort by Newest, Oldest, Most downloaded or Top rated.
 
 Press **Edit** on a skin to change its **Name**, **Description**, **Keywords** and **Gender**, to **Make private** or **Publish to gallery**, or to delete it (**Yes, delete** — this is for good). The globe button opens its public page.
 
@@ -137,7 +134,7 @@ Join themed skin contests: enter your skins, vote for your favourites, follow th
 
 ### Step 1 · Find an event
 
-Open **Events** in the menu. You see **Running now**, **Coming up** and **Past events**. Each event has a theme, its **Rules** and a **How it works** box.
+Open **More → Events** in the top menu. You see **Running now**, **Coming up** and **Past events**. Each event has a theme, its **Rules** and a **How it works** box.
 
 Entries open when the event starts. Past events show the **Final ranking** and the **Winner**.
 

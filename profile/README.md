@@ -8,21 +8,25 @@ Your profile is your page on MC-ENGINE: photo, banner, bio, social links, badges
 
 ## Step-by-step guides on this page
 
-- [Your profile: photo, banner, links, badges and security](#your-profile-photo-banner-links-badges-and-security)
+- [Your profile: photo, links, badges and security](#your-profile-photo-links-badges-and-security)
 - [Favourites, collections, notifications, reports and the weekly leaderboard](#favourites-collections-notifications-reports-and-the-weekly-leaderboard)
-- [Layouts, themes and fonts](#layouts-themes-and-fonts)
+- [Theme, language and font](#theme-language-and-font)
 
-## Your profile: photo, banner, links, badges and security
+## Your profile: photo, links, badges and security
 
-Set your profile photo and banner, name, bio, pronouns and location, add social links, pin your best skins, choose who sees what, turn on 2FA and collect badges.
+Set your profile photo, name, bio, pronouns and location, add social links, pin your best skins, choose who sees what, turn on 2FA and collect badges.
 
 *On the website, with screenshots: https://mc-engine.app/docs/profile*
 
-### Step 1 · Photo and banner
+### Step 1 · Profile picture: a Minecraft face
 
-Open **Profile**. Click your round picture (**Change photo**) to upload a profile photo, and **Change banner** to upload a wide banner across the top.
+Open **Profile** from your user menu (top right) and click the camera on your picture (**Change Photo**). Profile pictures are Minecraft faces — no photos:
 
-Your profile also shows your stats, like public skins and followers.
+**Random** makes a new character, **Make skin** lets you build one, **My skin** takes the face of the skin in your editor, and **Get skin** downloads that whole character as a skin. Or drop a **skin file** (a skin PNG, 64×64 up to 512×512) in the box — only its face is used. Press **Use this face** to save it.
+
+You can change your picture **3 times every 14 days**.
+
+Your profile also shows your stats: skins, orbiters, orbiting and profile views. **Public page** shows it the way others see it, and **Upload** opens the Upload / Export window.
 
 ### Step 2 · Edit profile
 
@@ -38,7 +42,9 @@ Press **Edit profile**. It has these sections:
 
 **Security**: protect your account with **2FA** (an authenticator app code), and link more sign-ins (Google, Discord, Microsoft).
 
-**Account**: your User ID, Public User ID, email status and the date you joined.
+**Account**: your User ID, Public User ID, email status, the date you joined — and **Delete account**.
+
+**Site settings** (language, font, saved canvas), **Shortcuts** and **Feedback** are here too — see **Theme, language and font**.
 
 ### Step 3 · Badges and sharing
 
@@ -65,9 +71,11 @@ Each collection can be **Private** (only you) or shown on your profile — click
 
 ### Step 2 · Notifications
 
-The **bell** at the top shows new notifications; your user menu → **Notifications** opens the full list.
+The **bell** at the top shows new notifications; **View all** (or your user menu → **Notifications**) opens the full **Notifications** page.
 
-You hear about new followers, favourites, comments and remixes of your skins, contest wins and password changes. Click one to open it, or press **Mark all read**.
+You hear about new followers, favourites, comments and remixes of your skins, replies to your feedback, contest wins and password changes. Click one to open it, or press **Mark all read**; unread ones have a green dot. **Load more** shows older ones.
+
+Under the list, **Suggested for you** (people who orbit you, people your friends orbit, people near you) and **Popular creators** each have an **Orbit** button — **Orbit back** for someone who already orbits you.
 
 ### Step 3 · Report something
 
@@ -82,31 +90,31 @@ On **Home**, the **Leaderboard** has two tabs: **Weekly creators** and **Top ski
 A creator's weekly score = downloads + 10 × new followers + 2 × rating stars received this week. It resets every Monday (UTC); early in the week you see last week's final board.
 
 
-## Layouts, themes and fonts
+## Theme, language and font
 
-Arrange the site your way (Classic, Unique, Darkness), choose a colour theme and switch between the Minecraft font and a normal font.
+Switch between night, day and the time of day, pick the site language and font, clear the saved canvas and delete your account.
 
 *On the website, with screenshots: https://mc-engine.app/docs/settings-look*
 
-### Step 1 · Open Appearance
+### Step 1 · Night, day or the time of day
 
-Open **Settings** (the gear icon) and click **Appearance**.
+The three small buttons at the top right of every page switch the look: the **moon** is night (dark), the **sun** is day (light), and the **clock** follows the real time of day — the sun by day, the moon at night.
 
-1. **Layout**: Classic (sidebar and top bar), Unique (floating assistant menu) or Darkness (pro 3D editor workspace).
-2. **Theme**: Dark, Light, Pink, Sunset, Frost or Midnight.
-3. **Font**: Minecraft (pixel font, like the game) or Normal (clean, easy to read).
+### Step 2 · Language and font
 
-> 💡 Darkness has its own colours, so the theme you pick is used in Classic and Unique.
+Open your **Profile**, press **Edit profile** and pick **Site settings** (or press **6** on your keyboard).
 
-### Step 2 · Other settings
+1. **Site settings**.
+2. **Language**: English, Español, Português, Deutsch, Русский, Polski or Français. Skin names, comments and guides stay as they were written.
+3. **Font**: Minecraft (pixel font, like the game) or Normal (clean, easy to read). Big titles keep their blocky look.
 
-**Account**: your sign-in and profile. **Saved canvas**: clear the skin saved in your browser (it is kept for 3 days so you can bring it back). **Shortcuts**: every keyboard key, and you can change them. **Feedback**: send us a message about a bug or idea.
+### Step 3 · Other settings
 
-**About**: the website version and a button to open this guide.
+**Saved canvas** (in Site settings): clear the skin saved in your browser (it is kept for 3 days so you can bring it back). **Shortcuts**: every keyboard key, and you can change them. **Feedback**: send us a message about a bug or idea.
 
-### Step 3 · Delete your account
+### Step 4 · Delete your account
 
-Open **Settings → Danger zone** and press **Delete account**. Type your own username to confirm, then press **Permanently Delete My Account**.
+Open **Profile → Edit profile → Account** and press **Delete account**. Type your own username to confirm, then press **Permanently Delete My Account**.
 
 This removes your account, profile and uploaded skins for good. It cannot be undone.
 

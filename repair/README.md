@@ -366,19 +366,21 @@ Place each face of a picture onto the right part of the skin, one face at a time
 
 ### Step 1 · Load the picture
 
-Open **Repair** and press **Upload image**. The picture shows on the left. On the right you see every body part and its faces.
+Open **Repair** and press **Upload skin**. The picture shows big on the right. Next to it you see every body part and its faces, and on the far left the **3D preview** of the finished skin.
 
-1. **Upload image**.
-2. **Faces**: Head, Body, Right Arm, Left Arm, Right Leg, Left Leg — 6 faces each, 36 in total.
+1. **Upload skin**.
+2. **Faces**: Head, Body, Right Arm, Left Arm, Right Leg, Left Leg — 6 faces each, 36 in total. **Find a face** jumps to one.
+3. **3D preview** of the repaired skin.
 
 ### Step 2 · Frame one face
 
-Pick a face, for example **Head → Front**. Then drag the **orange box** over that part of your picture and drag its corners to resize it.
+Pick a face, for example **Head → Front**. Then drag the **green box** over that part of your picture and drag its corners to resize it.
 
-Use the **arrow buttons** to nudge it one pixel at a time. **Locked** keeps the right shape for that face; **Free** lets you draw any box.
+Use the **arrow buttons** to nudge it one pixel at a time. In **Adjust**, **Locked** keeps the right shape for that face; **Free** lets you draw any box.
 
-1. The **orange box**: what goes on the chosen face.
-2. **Adjust**: arrows, Locked / Free, Fit / Stretch, Live link.
+1. The **green box**: what goes on the chosen face.
+2. **Arrows** and the box position (X, Y, W, H).
+3. **Adjust**: Layer, Skin size, Locked / Free, Fit / Stretch, Live link.
 
 > 💡 **Fit** keeps the picture's shape; **Stretch** fills the face exactly. **Live link** sends every confirmed face to the editor straight away.
 
@@ -423,12 +425,13 @@ Turn one photo — or separate front, back, side and top photos — into a skin,
 
 ### Step 1 · Open Photo to Skin
 
-Open **Repair** and click **Photo to Skin** at the top right. Your photos stay on your computer — nothing is uploaded.
+Open **Repair** and click **Photo to Skin** at the top (next to **Skin repair / Layout**). Your photos stay on your computer — nothing is uploaded.
 
 Choose **One photo** (the front; the back is mirrored and the sides are guessed) or **Each side** (a separate photo for front, back, right, left and top).
 
 1. **Photo**: One photo or Each side, then **Upload photo**.
-2. **Photo area**: crop, rotate, flip and tilt your photo here.
+2. **Photo area**: move and resize the boxes over the face, body, arms and legs.
+3. **Photo tools**: crop, rotate, flip, fit and tilt.
 
 ### Step 2 · Set the look
 
@@ -447,9 +450,9 @@ Choose **One photo** (the front; the back is mirrored and the sides are guessed)
 
 ### Step 3 · Save it
 
-Press **Download PNG** to save the skin, or **Open in Editor** to keep painting. **Reset settings** starts over.
+Under the 3D preview, press **PNG** to save the skin, or **Open in editor** to keep painting. **Reset** (top right) puts every photo setting back to the start.
 
-1. **Download PNG · Open in Editor**.
+1. **Open in editor · PNG**.
 
 
 ---

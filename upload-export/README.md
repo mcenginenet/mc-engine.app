@@ -42,12 +42,11 @@ Upload a skin file or any picture (PNG, JPG, WEBP, BMP, GIF). The size is detect
 
 ### Step 1 · Drop your file
 
-Press **Upload** in the top bar — the **Upload / Export** window opens on any page. In **1 · Upload**, press the big **Upload** button to choose a file, drop a file on the box, or paste a picture with **Ctrl + V**.
+Press **Import skin** in the editor's top bar (or **Upload Skin** on the Skins page, **Upload** on your Profile, **Import** on a phone) — the **Upload / Export** window opens. In **1 · Upload**, press the **Upload** button to choose a file, drop a file on the box, or paste a picture with **Ctrl + V**.
 
 Minecraft skins (64, 128, 256 or 512 pixels) load as they are, and old 64×32 skins open in the 64×64 layout. Any other picture is turned into a skin texture. Your skin turns in 3D on the left.
 
-1. **Drop zone**: PNG, JPG, WEBP, BMP, GIF.
-2. **Detected**: what the file is, e.g. "Minecraft skin 64×64".
+1. **Drop zone**: PNG, JPG, WEBP, BMP, GIF, 64–512 px.
 
 ### Step 2 · Check the skin settings
 
@@ -75,7 +74,7 @@ Choose Java or Bedrock in the Upload / Export window and download: a PNG for the
 
 ### Step 1 · Pick Java or Bedrock and download
 
-Press **Upload** in the top bar (or **Export** in the editor) to open the **Upload / Export** window. In **2 · Export**, pick **Java Edition** or **Bedrock Edition**, check the **file name**, keep **Only download** chosen and press **Download**.
+Press **Export skin** in the editor's top bar to open the **Upload / Export** window. In **2 · Export**, pick **Java Edition** or **Bedrock Edition**, check the **file name**, keep **Only download** chosen and press **Download**.
 
 Java gets a **PNG** saved at 64×64 — the only size the Java launcher accepts, even if you painted in HD. Bedrock gets a **.mcpack** skin pack (up to 128×128).
 
@@ -87,9 +86,9 @@ Java gets a **PNG** saved at 64×64 — the only size the Java launcher accepts,
 
 Open the **Minecraft Launcher** → **Skins** tab → **New skin**.
 
-Pick the PNG you downloaded, choose **Classic** (Steve) or **Slim** (Alex) — the same arms you picked on the site — and press **Save**. The page shows these steps under the Download button.
+Pick the PNG you downloaded, choose **Classic** (Steve) or **Slim** (Alex) — the same arms you picked on the site — and press **Save**.
 
-1. **The 3 steps** for the edition you picked.
+Want the full **HD skin** (up to 512×512) or a **moving cape** in Java? The launcher can't do that — use the free **MC-ENGINE Skins** mod instead: see the guide **Wear HD skins and moving capes in Minecraft**.
 
 ### Step 3 · Bedrock (phone, tablet, Windows)
 
@@ -101,7 +100,7 @@ Then in Minecraft go to **Dressing Room → Classic skins** and pick your pack a
 
 When you made a cape, **Include my cape** (above the download button) adds it: Java gives a **.zip** with the skin and the cape PNG (plus the moving GIF for a moving cape), Bedrock puts the cape inside the **.mcpack** (64×32).
 
-**More** (in the **2 · Export** title bar) has **GIF / video** (a walking, turning clip to share), **Cape PNG**, **Moving cape** and **Cape picture** (your skin from behind wearing the cape — when you made one), **JSON** (every pixel and its colour, for other tools), **Skin pack** and **Share link**. With Bedrock picked there's also **PNG only**. To put the skin in the gallery, choose **Public** (or **Private** for only you) instead of **Only download**.
+**More** (in the **2 · Export** title bar) has **GIF / video** (a walking, turning clip to share), **HD PNG** (the full-size HD skin, for the MC-ENGINE Skins mod — shown for skins bigger than 64×64), **Cape PNG**, **Moving cape** and **Cape picture** (your skin from behind wearing the cape — when you made one), **JSON** (every pixel and its colour, for other tools), **Skin pack** and **Share link**. With Bedrock picked there's also **PNG only**. To put the skin in the gallery, choose **Public** instead of **Only download**.
 
 **Skin pack** puts several skins into one Bedrock **.mcpack**: add the current skin, PNG files, Drafts or your saved skins, give each a name and Steve / Alex arms, order them, name the pack and download. In Minecraft they all show under Dressing Room → Classic skins → your pack.
 
